@@ -10,4 +10,4 @@ console.log("dati" + user_name);
 
 
 
-document.getElementById(`dati`).innerHTML = `dati ` + user_name;
+document.getElementById(`dati`).innerHTML = "dati" + user_name;
