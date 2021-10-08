@@ -1,6 +1,6 @@
-const user_name; Christopher
-const last_name; Tarascio
-const preferit_color; black
+const user_name = Christopher
+const last_name = Tarascio
+const preferit_color = black
 
 console.log(`dati = + name + surname + preferit_color`);
 
