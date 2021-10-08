@@ -2,7 +2,12 @@ const user_name = "Christopher";
 const last_name = "Tarascio";
 const preferit_color = "black";
 
-console.log(`dati = + name + surname + preferit_color`);
 
 
-document.getElementById(`dati`).innerHTML = `dati ` + user_name + last_name + preferit_color;
+const user_name = prompt("come ti chiami?");
+
+console.log("dati" + user_name);
+
+
+
+document.getElementById(`dati`).innerHTML = `dati ` + user_name;
